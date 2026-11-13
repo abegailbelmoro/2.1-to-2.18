@@ -1,0 +1,24 @@
+public class ScanAndConvert {
+
+    public static void main(String[] args) {
+
+        // Final grades of the three subjects
+        String javaGrade = "90";
+        String cppGrade = "88";
+        String csharpGrade = "92";
+
+        // Convert String grades into double
+        double java = Double.parseDouble(javaGrade);
+        double cpp = Double.parseDouble(cppGrade);
+        double csharp = Double.parseDouble(csharpGrade);
+
+        // Calculate the total average
+        double average = (java + cpp + csharp) / 3;
+
+        // Display the grades and total average
+        System.out.println("Java Grade: " + java);
+        System.out.println("C++ Grade: " + cpp);
+        System.out.println("C# Grade: " + csharp);
+        System.out.println("Total Average: " + average);
+    }
+}
