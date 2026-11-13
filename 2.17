@@ -1,0 +1,13 @@
+public class Box {
+    public static void main(String[] args) {
+
+        // Print a box and a diamond using escape sequences
+        System.out.println("**********\t\t\t   *");
+        System.out.println("*        *\t\t\t  * *");
+        System.out.println("*        *\t\t\t *   *");
+        System.out.println("*        *\t\t\t*     *");
+        System.out.println("*        *\t\t\t *   *");
+        System.out.println("*        *\t\t\t  * *");
+        System.out.println("**********\t\t\t   *");
+    }
+}
